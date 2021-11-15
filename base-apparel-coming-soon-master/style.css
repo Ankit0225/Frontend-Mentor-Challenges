@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(./images/bg-pattern-desktop.svg);
+}
+.container{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+.box{
+  position: absolute;
+  min-height: 100vh;
+  min-width: 70vw; 
+}
+.logo{
+
+    background: url(./images/logo.svg);
+    background-size: 100%;
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+    
+    transform: translate(130px, 40px);
+}
+.diff{
+  padding-top: 100px;
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+  margin-left: 130px;
+  transform: translateY(-40px);
+  font-size: 5rem;
+  font-family: sans-serif;
+  letter-spacing: 20px;
+}
+h1{
+  color: black;
+  margin-left: 130px;
+  transform: translateY(-40px);;
+  font-size: 5rem;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+}
+p{
+    color: hsl(0, 36%, 70%);
+    white-space: initial;
+    width: 55%;
+    font-size: 16px;
+    margin-left: 130px;
+    
+    font-weight: 500;
+}
+input{
+  position: absolute;
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 30px 30px 30px 30px;
+  background-color: rgba(0, 0, 0, 0.00);
+  width: 500px;
+  height: 60px;
+  color: black;
+  margin-top: 600px;
+  margin-left: 130px; 
+  font-size: 20px;
+  padding-left: 30px;
+  
+}
+input:focus{
+
+}
+
+.hero{
+  background: url(./images/hero-desktop.jpg);  
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
