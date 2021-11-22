@@ -35,7 +35,6 @@ body{
     width: 150px;
     height: 100px;
     background-repeat: no-repeat;
-    
     transform: translate(130px, 40px);
 }
 .diff{
@@ -59,7 +58,7 @@ h1{
 p{
     color: hsl(0, 36%, 70%);
     white-space: initial;
-    width: 55%;
+    width: 400px;
     font-size: 16px;
     margin-left: 130px;
     
@@ -72,8 +71,8 @@ input{
   width: 500px;
   height: 60px;
   color: black;
-  margin-top: 600px;
-  margin-left: 130px; 
+  margin-top: 90px;
+  margin-left: 120px; 
   font-size: 20px;
   padding-left: 30px;
   
@@ -81,11 +80,20 @@ input{
  
 
 .hero{
-  background: url(./images/hero-desktop.jpg);  
+  background-image: url(./images/hero-desktop.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
-  transform: translate(80%);
+  height: 868px;
+  background-size: 100%;
+  width: 90vw;
+  z-index: 12;
+  position: absolute;
+  margin-left: 730px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  justify-content: center; 
+  margin-top: 900px;
+  width: 400px;
+  font-size: 16px; text-align: center; }
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+ }
