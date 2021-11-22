@@ -18,15 +18,19 @@ body{
 }
 .container{
     display: flex;
-    position: relative;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     min-width: 100vw;
     
 }
 .box{
-  position: absolute;
   min-height: 100vh;
-  min-width: 70vw; 
+  min-width: 70vw;
+  height: 100%;
+  width: 100%; 
+  justify-content: center;
 }
 .logo{
 
@@ -71,6 +75,7 @@ input{
   width: 500px;
   height: 60px;
   color: black;
+
   margin-top: 90px;
   margin-left: 120px; 
   font-size: 20px;
