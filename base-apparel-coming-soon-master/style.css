@@ -89,16 +89,13 @@ input{
   background-repeat: no-repeat;
   height: 868px;
   background-size: 100%;
-  width: 90vw;
+  width: 50pc;
+  top: 0;
   z-index: 12;
   position: absolute;
   margin-left: 730px;
 }
-.attribution {
-  justify-content: center; 
-  margin-top: 900px;
-  width: 400px;
-  font-size: 16px; text-align: center; }
-.attribution a { 
-  color: hsl(228, 45%, 44%);
- }
+
+@media screen and (min-width: 375px) {
+  
+}
